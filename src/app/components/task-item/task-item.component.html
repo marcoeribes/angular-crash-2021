@@ -3,13 +3,15 @@
   class="task"
   (dblclick)="onToggle(task)"
 >
-  <h3>
-    {{ task.text }}
+  <section style="display: flex; flex-direction: row-reverse;">
     <fa-icon
       (click)="onDelete(task)"
       [ngStyle]="{ color: 'red' }"
       [icon]="faTimes"
     ></fa-icon>
-  </h3>
+    <h3>
+      {{ task.text }}
+    </h3>
+  </section>
   <p>{{ task.day }}</p>
 </div>

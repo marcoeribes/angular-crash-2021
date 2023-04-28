@@ -37,4 +37,13 @@ body {
     display: block;
     margin: auto;
 }
-  
+
+input, input:focus {
+    background: transparent;
+    border: transparent;
+    outline: none;
+}
+
+input:focus{
+    border: transparent;
+}

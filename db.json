@@ -7,10 +7,10 @@
       "reminder": true
     },
     {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "May 6th at 2:30pm",
-      "reminder": true
+      "id": 3,
+      "text": "Food Shopping",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
     },
     {
       "id": 3,
@@ -20,9 +20,26 @@
     },
     {
       "text": "fdasd",
-      "day": "dfasdfa",
-      "reminder": false,
+      "day": "fdasdf",
       "id": 4
+    },
+    {
+      "text": "fdas",
+      "day": "dafsdf",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "Food Shopping",
+      "day": "May 7th at 12:30pm",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "Fun Times",
+      "day": "wowow",
+      "reminder": false,
+      "id": 7
     }
   ]
 }
