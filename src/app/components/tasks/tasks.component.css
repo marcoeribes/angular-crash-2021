@@ -3,3 +3,10 @@
     grid-template-columns: 200px 200px 200px; 
     justify-content: center;
 }
+
+.resize {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}

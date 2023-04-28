@@ -1,0 +1,38 @@
+
+<div
+    *ngIf="showAddTask; else elseBlock"
+      [ngClass]="{  }"
+      class="task"
+    >
+    <form>
+        <label>
+            Job
+        </label>
+        <input
+        type="text"
+        name="job"
+        [(ngModel)]="job"
+        id="job"
+        placeholder="Add Task"
+      />
+      <label>
+        Date
+    </label>
+    <input
+    type="text"
+    name="date"
+    [(ngModel)]="datet"
+    id="date"
+    placeholder="Add Date"
+  />
+    </form>
+      <h3>
+      </h3>
+
+</div>
+<ng-template #elseBlock>
+    <input  type="image" class="resize" src="../assets/green-add-button.png" (click)="onClick()"/>
+</ng-template>
+
+
+

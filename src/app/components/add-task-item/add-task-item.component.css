@@ -1,0 +1,40 @@
+body {
+    margin: 20px auto;
+    font-family: 'Lato';
+    background:#666;
+    color:#fff;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  div{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    margin:1em;
+  }
+ 
+.resize {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+  
