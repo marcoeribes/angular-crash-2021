@@ -39,15 +39,6 @@ body {
     margin-top: 20%;
 }
 
-input, input:focus, input[type="text"] {
-    background: transparent;
-    border: transparent;
-    outline: none;
-    font-size: 1rem;
-    font-weight: bold;
-    width: 100%;
-}
-
 textarea{
     background: transparent;
     border: transparent;

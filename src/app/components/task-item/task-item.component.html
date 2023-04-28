@@ -1,17 +1,14 @@
 <div
   [ngClass]="{ color: task.reminder }"
   class="task"
-  (dblclick)="onToggle(task)"
->
-  <section style="display: flex; flex-direction: row-reverse;">
-    <fa-icon
-      (click)="onDelete(task)"
-      [ngStyle]="{ color: 'red' }"
-      [icon]="faTimes"
+  (dblclick)="onToggle(task)">
+  <fa-icon
+    (click)="onDelete(task)"
+    [ngStyle]="{ color: 'red' }"
+    [icon]="faTimes"
     ></fa-icon>
-    <h3>
-      {{ task.text }}
-    </h3>
-  </section>
+  <h4>
+    {{ task.text }}
+  </h4>
   <p>{{ task.day }}</p>
 </div>
