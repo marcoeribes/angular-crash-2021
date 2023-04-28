@@ -5,20 +5,29 @@
         class="task"
     >
     <form (keyup.enter)="onSubmit()">
-        <input
-        type="text"
-        name="text"
-        [(ngModel)]="text"
-        id="text"
-        placeholder="Add Task"
-      />
-    <input
-    type="text"
-    name="day"
-    [(ngModel)]="day"
-    id="day"
-    placeholder="Add Date"
-    />
+    <section class="input-section">
+        <section>
+        <textarea
+            name="text"
+            [(ngModel)]="text"
+            id="text"
+            placeholder="Add Task"
+            rows="4"
+        >
+        </textarea>
+        </section>
+        <section>
+        <textarea
+            type="text"
+            name="day"
+            [(ngModel)]="day"
+            id="day"
+            placeholder="Add Date"
+            row="2"
+        >
+        </textarea>
+        </section>
+    </section>
 </form>
 
 </div>

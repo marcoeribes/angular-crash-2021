@@ -19,27 +19,10 @@
       "reminder": false
     },
     {
-      "text": "fdasd",
-      "day": "fdasdf",
-      "id": 4
-    },
-    {
-      "text": "fdas",
-      "day": "dafsdf",
-      "reminder": false,
-      "id": 5
-    },
-    {
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": true,
       "id": 6
-    },
-    {
-      "text": "Fun Times",
-      "day": "wowow",
-      "reminder": false,
-      "id": 7
     }
   ]
 }
