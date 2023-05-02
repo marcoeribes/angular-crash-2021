@@ -1,23 +1,10 @@
-/*.task {
-  background: #f4f4f4;
-  margin: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
+@font-face {
+  font-family: Kalam;
+  src: url('../../../assets/fonts/Kalam-Regular.ttf');
 }
-
-.task.reminder {
-  border-left: 5px solid green;
-}
-
-.task h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}*/
 
 body {
   margin: 20px auto;
-  font-family: 'Lato';
   background:#555;
   color:#fff;
 }
@@ -33,6 +20,7 @@ h4 {
 p {
   font-size: 1rem;
   font-weight: normal;
+
 }
 div {
   list-style:none;
