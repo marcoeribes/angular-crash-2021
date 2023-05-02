@@ -1,9 +1,5 @@
 
-<div
-    *ngIf="showAddTask; else elseBlock"
-        [ngClass]="{  }"
-        class="task"
-    >
+<div *ngIf="showAddTask; else elseBlock" [ngClass]="this.color">
     <form (keyup.enter)="onSubmit()">
     <section class="input-section">
         <section>

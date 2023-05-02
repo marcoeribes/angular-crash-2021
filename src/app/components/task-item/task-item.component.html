@@ -1,7 +1,6 @@
-<div
-  [ngClass]="{ color: task.reminder }"
-  class="task"
-  (dblclick)="onToggle(task)">
+<div 
+  [ngClass]="task.color"
+  (click)="onToggle(task)">
   <fa-icon
     (click)="onDelete(task)"
     [ngStyle]="{ color: 'red' }"

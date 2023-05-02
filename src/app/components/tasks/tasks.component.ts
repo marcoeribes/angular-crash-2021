@@ -24,9 +24,28 @@ export class TasksComponent implements OnInit {
       );
   }
 
-  toggleReminder(task: Task) {
-    task.reminder = !task.reminder;
-    this.taskService.updateTaskReminder(task).subscribe();
+  toggleColor(task: Task){
+    switch(task.color){
+      case 'yellow': 
+        task.color = 'pink';
+        break;
+      case 'pink': 
+        task.color = 'cyan';
+        break;
+      case 'cyan':
+        task.color = 'orange';
+        break;
+      case 'orange':
+        task.color = 'magenta';
+        break;
+      case 'magenta':
+        task.color = 'green';
+        break;
+      case 'green':
+        task.color = 'yellow';
+        break;
+    }
+    this.taskService.updateTaskColor(task).subscribe();
   }
 
   addTask(task: Task) {

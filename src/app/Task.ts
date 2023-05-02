@@ -2,5 +2,7 @@ export interface Task {
   id?: number;
   text: string;
   day: string;
-  reminder: boolean;
+  color: string;
 }
+
+export type Color = 'yellow' | 'pink' | 'cyan' | 'orange' | 'magenta' | 'green'

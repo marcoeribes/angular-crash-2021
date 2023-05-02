@@ -3,7 +3,7 @@
     *ngFor="let task of tasks"
     [task]="task"
     (onDeleteTask)="deleteTask(task)"
-    (onToggleReminder)="toggleReminder(task)"
+    (onToggleColor)="toggleColor(task)"
   ></app-task-item>
   <app-add-task-item (onAddTask)="addTask($event)"></app-add-task-item>
 
